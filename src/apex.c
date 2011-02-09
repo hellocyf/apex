@@ -26,7 +26,7 @@ int verbose = 1;
 static volatile sig_atomic_t apex_shutdown = 0;
 static volatile sig_atomic_t graceful_shutdown = 0;
 apex_epoll_t apex_epoll;
-
+//
 int apex_callback(struct epoll_event *event, void* data)
 {
 	char buf[TEST_BUF_SIZE];

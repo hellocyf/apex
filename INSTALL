@@ -1,0 +1,24 @@
+
+============
+Installation
+============
+
+:author: chenyuefeng
+:Date: $Date: $
+:Revision: $Revision: $
+
+Installation
+------------
+
+Get the source from
+
+http://apexpush.googlecode.com
+
+
+compile and use it with ::
+
+  $ cd src
+  $ make
+  $./apex
+
+
